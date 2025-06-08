@@ -587,6 +587,12 @@ font-weight: 500;
         color: #fff;
 }
 
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .foot-btn {
     border-radius: 4px;
         width: 165px;
@@ -602,6 +608,14 @@ font-weight: 500;
             color: #fff;
             border: none;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+
+.icon-subsc {
+    margin-left: 16px;
+    fill: #fff;
 }
 
 .foot-btn:hover,
